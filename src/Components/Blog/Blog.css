@@ -1,0 +1,134 @@
+.blog-main-container{
+  background-size: 100%;
+    background-image: url("https://tezosindia.org.in/wp-content/uploads/2021/12/hero.png");
+    height: 25rem;
+    background-position: center -12rem;
+    background-color: rgb(46, 46, 46);
+    background-blend-mode:overlay;
+}
+
+.blog-main-wrapper{
+    padding-top: 10rem;
+    margin-left:5rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: start;
+}
+
+.blog-main-wrapper>*{
+    color: white;
+}
+
+.blog-main-wrapper>h2{
+    font-size: 3.4rem;
+    font-weight: 400;
+}
+
+.blog-main-wrapper>p{
+    margin-top: -1rem;
+    font-size: 15px;
+   font-weight: 650;
+}
+
+.blog-row{
+    padding: 4rem;
+    background-color: rgb(237,237,237);
+}
+.blog-section{
+    width: 23.5rem;
+    background-color: white;
+    margin: 2rem 0;
+    border-radius: 5px;
+ }
+ .blog-section:hover>*{
+    color: black;
+ }
+
+ 
+
+.whole-blog-link{
+    width: 20rem;
+color: black;
+text-decoration: none;
+}
+
+.whole-blog-link:hover>div>img{
+    transform: scale(1.1);
+     
+}
+
+.whole-blog-link>div{
+    width: 23.5rem;
+    overflow: hidden;
+}
+.whole-blog-link>div>img{
+    width:   23.5rem;
+    transition: transform 0.2s;
+}
+
+.whole-blog-link>h1{
+    font-size: 2.1rem;
+    padding: 1rem 2.3rem 1rem 1rem;
+    font-weight: 400;
+}
+
+.whole-blog-link>p{
+    padding: 0.1rem 2.3rem 2rem 2rem; 
+     font-weight: 600;
+    color: rgb(92, 92, 92);
+    text-align: start;
+}
+
+.whole-blog-link>h6{
+    color: blue;
+    padding: 1rem 1rem 0 2rem;
+}
+
+.whole-blog-link>h1{
+    text-align: start;
+    padding: 1rem 1rem 0 2rem;
+
+}
+
+.blog-postman{
+    display: flex;
+    align-items: center;
+}
+.postman-image{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(197, 197, 197);
+    margin: 1.3rem 1rem 2rem 1.3rem;
+    border-radius: 50%;
+position: relative;
+}
+
+.postman-name>*{
+  font-size: 14px;
+  padding: 0;
+  margin: -0.1rem 0;
+  
+}
+.postman-image>.small{
+    width: 1rem;
+    height: 1rem;
+    background-color: white;
+    position: absolute;
+    left: 0.75rem; 
+    top: 0.6rem;
+    border-radius: 50%;
+
+}
+.postman-image>.big{
+    width: 1.5rem;
+    height:1.5rem;
+    background-color: white;
+    position: absolute;
+    left: 0.5rem; 
+    top: 1.5rem;
+    border-radius: 50%;
+}
+.postman-name{
+    margin-bottom: 0.5rem;
+}

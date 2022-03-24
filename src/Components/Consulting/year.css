@@ -1,0 +1,17 @@
+.year-main-container{
+    background-color: black;
+    height: 13rem;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.annual-button{
+    justify-content: flex-end;
+}
+
+h1{
+    font-size: 50px;
+
+}

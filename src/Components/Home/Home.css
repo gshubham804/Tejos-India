@@ -1,0 +1,411 @@
+.home-first-container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://tezosindia.org.in/wp-content/uploads/2021/12/light-hero.png");
+  background-color: rgb(73, 73, 73);
+  background-position: center -7rem;
+  background-size: 100%;
+  background-blend-mode: overlay;
+}
+
+/* .row-home-wrapper{
+    margin: 0 5rem;
+} */
+
+.home-row-first > h5 {
+  padding-top: 8rem;
+  color: white;
+  text-align: center;
+}
+
+.home-row-second {
+  padding: 1rem 18rem;
+}
+.home-row-second > h2 {
+  color: white;
+  text-align: center;
+}
+
+.home-row-third > p {
+  padding: 0rem 22rem;
+  color: white;
+  text-align: center;
+}
+
+.home-row-fourth-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-row-fourth-container > p {
+  padding: 1rem 1rem;
+  color: rgb(221, 217, 217);
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.home-row-fourth-container > p:hover {
+  font-weight: bold;
+}
+
+.blockchain-button-container {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.home-second-container {
+  height: 18rem;
+}
+
+.home-second-first-row > h2 {
+  padding: 3rem 22rem;
+  text-align: center;
+}
+
+.home-second-second-row > p {
+  font-weight: 600;
+  text-align: center;
+  padding: 0 18rem;
+}
+
+.home-third-container {
+  margin-top: 1rem;
+  height: 30rem;
+  background-color: aqua;
+}
+
+.home-third-row {
+  margin: 0;
+}
+.home-third-container-firstcol {
+  color: white;
+  padding: 0;
+  overflow: hidden;
+}
+
+.home-third-container-firstcol > div > * {
+  color: white;
+  fill: white;
+}
+
+.home-third-container-firstcol > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 1rem 3rem;
+  transition: transform 4s;
+}
+
+.home-third-container-firstcol > div > p {
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  opacity: 0;
+  line-height: 0;
+  transition: line-height 0.6s, opacity 0.6s;
+}
+.home-third-container-firstcol > div > h2 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+.home-third-container-firstcol:hover > div > p {
+  opacity: 1;
+  line-height: 1.5;
+}
+
+.home-third-container-firstcol:hover > div {
+  transform: scale(1.05);
+}
+
+.home-third-container-firstcol-img {
+  /* height: 100%; */
+  overflow: hidden;
+  padding: 0;
+  height: 30rem;
+  background-image: url("https://tezosindia.org.in/wp-content/uploads/2021/12/brooke-cagle-g1Kr4Ozfoac-unsplash-scaled.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.home-third-container-firstcol:hover > .home-third-container-firstcol-img {
+  background-image: url("https://tezosindia.org.in/wp-content/uploads/2021/12/brooke-cagle-g1Kr4Ozfoac-unsplash-scaled.jpg"),
+    linear-gradient(0deg, rgb(63, 63, 247), transparent);
+  background-position: center, center bottom;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+.home-third-container-secondcol-img {
+  background-image: url("https://tezosindia.org.in/wp-content/uploads/2021/12/md-duran-rE9vgD_TXgM-unsplash.jpg");
+  overflow: hidden;
+  padding: 0;
+  height: 30rem;
+  background-position: center;
+  background-size: cover;
+}
+.home-third-container-firstcol:hover > .home-third-container-secondcol-img {
+  background-image: url("https://tezosindia.org.in/wp-content/uploads/2021/12/md-duran-rE9vgD_TXgM-unsplash.jpg"),
+    linear-gradient(0deg, rgb(63, 63, 247), transparent);
+  background-position: center, center bottom;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+.home-third-container-thirdcol-img {
+  background-image: url("https://tezosindia.org.in/wp-content/uploads/2022/01/austin-distel-rxpThOwuVgE-unsplash-scaled.jpg");
+  overflow: hidden;
+  padding: 0;
+  height: 30rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.home-third-container-firstcol:hover > .home-third-container-thirdcol-img {
+  background-image: url("https://tezosindia.org.in/wp-content/uploads/2022/01/austin-distel-rxpThOwuVgE-unsplash-scaled.jpg"),
+    linear-gradient(0deg, rgb(63, 63, 247), transparent);
+  background-position: center, center bottom;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+.home-third-container-fourthcol-img {
+  background-image: url("https://tezosindia.org.in/wp-content/uploads/2021/12/charles-forerunner-3fPXt37X6UQ-unsplash-scaled.jpg");
+  overflow: hidden;
+  padding: 0;
+  height: 30rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.home-third-container-firstcol:hover > .home-third-container-fourthcol-img {
+  background-image: url("https://tezosindia.org.in/wp-content/uploads/2021/12/charles-forerunner-3fPXt37X6UQ-unsplash-scaled.jpg"),
+    linear-gradient(0deg, rgb(63, 63, 247), transparent);
+  background-position: center, center bottom;
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+.home-third-container-firstcol-img > img {
+  height: 100%;
+}
+
+.home-fourth-container {
+  width: 100vw;
+  height: 35.5rem;
+}
+
+.home-fourth-container-img {
+  height: 100%;
+  width: 100%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-image: url("https://tezosindia.org.in/wp-content/uploads/2017/02/comp-1.jpg"),linear-gradient(to bottom,#f2f2f2 0%,rgba(242,242,242,0.01) 100%);
+  background-color: #837f7f;
+  background-blend-mode: overlay;
+  background-size: cover;
+}
+
+
+.home-fourth-container-row{
+    padding:10rem 6rem 0 6rem;
+}
+
+.home-fourth-container-colfirst>h2{
+    text-align: left;
+    color: blue;
+    font-size: 5rem;
+    padding-top: 2rem;
+}
+
+.home-fourth-container-colsecond>h2{
+    text-align: left;
+    color: blue;
+    font-size: 5rem;
+    padding-top: 2rem;
+}
+
+.home-fourth-container-colthird>h5{
+    padding:0 4rem;
+}
+.home-fourth-container-colthird>h2{
+    font-size: 2.2rem;
+    padding:0 3.5rem;
+}
+
+.home-fourth-container-colthird-button{
+    padding:2rem 3.5rem;
+}
+
+.home-fifth-container{
+    margin-top: 5rem;
+    height: 28rem;
+    background-color: white;
+}
+
+.home-fifth-container-firstrow>h2{
+    text-align: center;
+}
+
+
+.home-fifth-container-secondrow{
+    text-align: center;
+    margin: 4rem 10rem;
+}
+.home-fifth-container-secondrow-firstcol>p{
+    padding: 3rem 3rem;
+    text-align: center;
+    font-weight: 600;
+}
+.home-fifth-container-secondrow-firstcol>h2{
+    color: blue;
+    font-size: 5rem;
+
+}
+.home-fifth-container-secondrow-secondcol>p{
+    padding: 3rem 2rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.home-fifth-container-secondrow-secondcol>h2{
+    color: blue;
+    font-size: 5rem;
+}
+
+.home-fifth-container-secondrow-thirdcol>p{
+    padding: 3rem 2rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.home-fifth-container-secondrow-thirdcol>h2{
+    color: blue;
+    font-size: 5rem;
+}
+
+.home-sixth-container{
+    height: 30rem;
+    margin: 1rem 5rem;
+}
+
+.home-sixth-container-firstcol>p{
+    padding-top: 2rem;
+    padding-right: 3.5rem;
+    text-align:justify;
+    font-weight:500;
+}
+
+.home-sixth-container-secondcol-firstimg{
+    position:absolute;
+    padding-top: 5rem;
+    padding-left: 8rem;
+}
+.home-sixth-container-secondcol-firstimg>img{
+    height: 80%;
+    width: 80%;
+    overflow: hidden;
+}
+
+.home-sixth-container-secondcol-secondimg{
+    position: relative;
+    top: 4rem;
+    left: 7rem;
+    padding-left: 8rem;
+    padding-top: 5rem;
+}
+.home-sixth-container-secondcol-secondimg>img{
+    height: 80%;
+    width: 80%;
+    overflow: hidden;
+}
+
+.home-seventh-container{
+    margin: 2rem 5rem;
+    height: 40rem;
+}
+
+.home-seventh-firstrow>h2{
+    padding-right: 45rem;
+    line-height: 4rem;
+}
+
+.home-seventh-secondrow{
+    padding-top: 5rem;
+}
+
+.home-seventh-container-img{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.home-seventh-container-img>img{
+    padding-right: 5rem;
+}
+.home-seventh-container-img1{
+    height:4rem ; 
+    align-items: center;
+}
+.home-seventh-container-img2{
+    height:10rem ; 
+}
+
+.home-seventh-container-img3{
+    height:5rem ; 
+}
+
+.home-seventh-container-img4{
+    height:4rem ; 
+}
+
+.heading-cont{
+    text-align: start;
+    padding:0 0 3rem 3rem;
+
+}
+.heading-cont>h1{
+    font-size: 3rem;
+}
+
+.our-team-container{
+    margin-top: 8rem;
+}
+
+.team-member-col{
+  padding: 0;
+  margin: 0;
+}
+.team-member-container{
+    margin: 0;
+    padding: 0;
+}
+
+.member{
+    padding: 1rem 3rem;
+}
+
+
+.member>*{
+    width: 100%;
+     font-weight: 400;
+}
+.member>img{
+    padding: 1rem 0;
+    transition: transform 0.5s;
+}
+.member>img:hover{
+    transform: scale(0.9);
+     
+}
+.member>h6{
+    font-weight: 700;
+    color: rgb(63, 63, 63);
+}
+.member>p{
+    padding: 1rem 1rem 0 0;
+    line-height: 1.7;
+    font-weight: 500;
+    color: rgb(146, 145, 145);
+}

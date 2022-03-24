@@ -1,0 +1,93 @@
+.resources-container-first {
+  height: 100vh;
+  width: 100vw;
+  background-position: center -8rem;
+  background-color: rgb(78, 76, 76);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-image: url("https://tezosindia.org.in/wp-content/uploads/2022/01/shubham-dhage-JlijbOtSWuw-unsplash-scaled.jpg");
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+.reources-wanna-chat{
+  padding: 0 4rem;
+  width: 560px;
+  height: 282px;
+}
+
+.get-started{
+padding-bottom: 2.5rem;
+}
+
+.resources-container-first-image{
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  width: 560px;
+  height: 315px;
+  overflow: hidden;
+  background-color: yellow;
+}
+
+
+.resources-container-second {
+  height: 40rem;
+  color: black;
+}
+
+
+.resources-container-second-col-first{
+  margin: 5rem 0 0 0;
+  height: 30rem;
+  width: 30rem;
+  
+}
+
+.image-resources-container-second-col-first{
+  background-image: url("https://tezosindia.org.in/wp-content/uploads/2022/01/Tezos-India-Developers-Handbook.png");
+  background-position: center top;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+
+.resources-container-second-column-second{
+  height: 40rem;
+  color: black;
+  margin: 5rem 0 0 0;
+  height: 30rem;
+  width: 30rem;
+}
+
+.resources-container-second-column-second>.row>h2{
+  padding: 0 5rem;
+  text-align: left;
+}
+
+.resources-container-second-column-second>.row>p{
+  padding: 1rem 5rem 0 5.2rem;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.easy>h4{
+  padding: 3rem 4rem 0  4rem;
+  text-align: left;
+}
+
+.easy>p{
+  padding: 1rem 4rem 0  4rem;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.7;
+}
+
+

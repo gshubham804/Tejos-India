@@ -1,0 +1,58 @@
+.seewhat-container{
+    padding-top: 4rem;
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.handbook-container{
+  
+    padding-top: 4.5rem;
+    margin-top: 4.5rem;
+    height:35rem;
+    width:25%;
+}
+
+.image-handbook-container{
+    background-image: url('https://tezosindia.org.in/wp-content/uploads/2022/01/Tezos-India-Developers-Handbook.png');
+    background-position: center top;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.handbook-container>h2{
+  padding-left: 4rem;
+}
+
+.handbook-container>h1{
+    font-size: 2.8rem;
+}
+
+.radio-icon{
+    margin: 5rem 0;
+    font-weight: bold;
+}
+
+.viewmore-container{
+    background-color:rgba(53, 53, 219, 0.973);
+    height: 15rem;
+    width: 80%;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15rem;
+}
+
+.viewmore-container>h3{
+    padding-top: 3rem;
+}
+.view-button{
+    color: white;
+    border-color:white;
+    margin: 2rem 0;
+
+}

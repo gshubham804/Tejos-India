@@ -1,0 +1,56 @@
+
+.footer{
+    background-color: black;
+    height: 60vh;
+}
+
+.footer-row{
+    padding-top: 5rem;
+}
+
+.container{
+    background-color: black;
+}
+.main{
+    height: 28rem;
+    background-color:black;
+}
+
+.row{
+    /* background-color:rgb(15, 228, 68); */
+
+}
+.column{
+    color: white;
+    padding: 0 85px;
+}
+
+.footer-column-first>div>h3{
+    text-align: start;
+}
+
+.footer-column-first>p{
+    padding-top: 2rem;
+    padding-right: 3rem;
+    color:white;
+}
+
+.footer-Events{
+    margin-top:8px ;
+}
+
+.footer-Resources{
+    margin-top:8px ;
+}
+
+.footer-Consulting{
+    margin-top:8px ;
+}
+
+.footer-Blog{
+    margin-top:8px ;
+}
+
+.footer-Contact{
+    margin-top:8px ;
+}

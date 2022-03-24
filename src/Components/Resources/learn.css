@@ -1,0 +1,47 @@
+.learn-container{
+    height: 100vh;
+    /* background-color: yellow; */
+}
+
+.learn-container>h1{
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.card-section{
+    display: flex;
+    margin: 0 7rem ;    
+}
+.card{
+    height: 25rem;
+    box-shadow: rgba(17, 17, 233, 0.863) 0px 30px 60px -12px inset, rgba(226, 31, 31, 0.3) 0px 18px 36px -18px inset;
+    width: 100%;
+    margin: 20px;
+}
+
+.image-container{
+    position: relative;
+    height: 50%;
+    overflow: hidden;
+}
+
+.image-container>img{
+    transition: transform .5s ease-in;   
+}
+
+.image-container>img:hover{
+    /* overflow: hidden; */
+    transform: scale(1.1);
+}
+
+.play-button{
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 40%;
+    left: 38%;
+    font-size: 5rem;
+    color: blue;
+    z-index: 1;
+}
+

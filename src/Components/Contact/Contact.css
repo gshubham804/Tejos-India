@@ -1,0 +1,85 @@
+.first-container {
+  height: 30rem;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-position: center -10rem;
+  background-repeat: no-repeat;
+  background-color: rgb(97, 96, 96);
+  background-image: url("https://tezosindia.org.in/wp-content/uploads/2021/12/hero.png");
+  background-size: 100%;
+  background-blend-mode: overlay;
+}
+
+.wanna-chat {
+    color: white;
+  /* background-color: brown; */
+  margin-left: 8rem;
+  margin-bottom: 0rem;
+  text-transform: capitalize;
+  letter-spacing: 0;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 700;
+}
+
+.get-in-touch {
+  margin-top: 2rem;
+  /* background-color:blue; */
+  font-size: 3rem;
+}
+
+.button-contact-us {
+  margin-top: 4rem;
+}
+
+.column-first {
+  margin: 6rem 6rem;
+}
+
+.column-first>.contact>h3{
+text-align: left;
+font-weight: 500;
+}
+
+
+.for-projects {
+    font-weight: 600;
+  margin: 4rem 0 0 0;
+}
+
+
+
+.for-partnerships {
+    font-weight: 600;
+  margin: 4rem 0 0 0;
+}
+
+.column-second {
+    font-size: 20px;
+    font-weight: 600;
+  margin: 6rem 4rem;
+}
+
+.social-platform {
+  display: flex;
+}
+.social-platform > div {
+  cursor: pointer;
+  text-decoration: underline;
+
+  margin: 0.5rem 0;
+}
+
+.social-platform > div:hover {
+  text-decoration: none;
+}
+
+.social-twitter {
+  padding: 0 1rem 0 0;
+}
+
+.social-discord {
+  padding: 0 1rem 0 0;
+}

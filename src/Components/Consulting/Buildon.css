@@ -1,0 +1,78 @@
+.buildon-main-container{
+    margin: 3rem 5rem;
+    /* background-color: yellow; */
+}
+
+h1{
+    text-align: justify;
+}
+
+.build-column-first{
+    padding: 0 2rem;
+}
+
+.build-column-second{
+    
+    margin-top: 2rem;
+    padding: 0 5rem;
+}
+
+.build-column-third{
+    margin-top: 2rem;
+    padding: 0 4rem;
+}
+
+.buildon-icon{
+    font-size: 2.5rem;
+    color: blue;
+    margin-bottom: 3rem;
+}
+
+.community-row{
+    padding-top: 5rem;
+}
+
+.scope-row{
+    padding-top: 4.5rem;
+}
+
+h3{
+    margin-bottom: 1rem;
+}
+
+.product-row:hover{
+    background-color: rgba(0, 0, 255, 0.648);
+    color: white;
+}
+
+.team-row:hover{
+    background-color: rgba(0, 0, 255, 0.648);
+    color: white;
+}
+.community-row:hover{
+    background-color: rgba(0, 0, 255, 0.648);
+    color: white;
+}
+.scope-row:hover{
+    background-color: rgba(0, 0, 255, 0.648);
+    color: white;
+}
+
+.product-row:hover .buildon-icon{
+    color: white;
+}
+
+.team-row:hover .buildon-icon{
+    color: white;
+}
+
+.community-row:hover .buildon-icon{
+    color: white;
+}
+
+.scope-row:hover .buildon-icon{
+    color: white;
+}
+
+
+

@@ -1,0 +1,23 @@
+.navbar-container{
+    height: 5rem;
+    background-color:rgb(73, 72, 72);
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.navbar-logo{
+    margin:8rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.navbar-wrapper{
+    margin-right: 5rem;
+    width: 100vw;
+        justify-content: flex-end;
+    display: flex;
+  }
+  
+  .navbar-wrapper>div{
+      padding: 0 0.5rem;
+  }  
